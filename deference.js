@@ -46,8 +46,31 @@
 //         console.log(i);
 //     }
 // }
-for(let i=1; i<=30 ; i++){
+// for(let i=1; i<=30 ; i++){
+//     if(i % 3 === 0 && i % 5 === 0){
+//         console.log(i);
+//     }
+// }
+
+// for(let i=1; i<=100 ; i++){
+//     if(i % 3 === 0 && i % 5 === 0){
+//         console.log(i);
+//     }
+// }
+
+// for(let i=1; i<=30 ; i++){
+//     if(i % 3 === 0 || i % 5 === 0){
+//         console.log(i);
+//     }
+// }
+
+// give me sum of numbers between 1 to 100 which are divisible by 3
+
+let sum = 0;
+for(let i=1; i<=100 ; i++){
     if(i % 3 === 0){
         console.log(i);
-    }
+        sum = sum + i;
+    }  
 }
+console.log("Sum of numbers between 1 to 100 which are divisible by 3 is: ", sum);
